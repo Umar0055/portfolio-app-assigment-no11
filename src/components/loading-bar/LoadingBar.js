@@ -5,12 +5,12 @@ export default function LoadingBar(props) {
     <li className="skills-item">
 
     <div className="title-wrapper">
-      <h5 className="h5">{props.title}</h5>
-      <data value="80">{props.value}</data>
+      <h5 className="h5">{props.skill.title}</h5>
+      <data value={props.skill.value}>{props.skill.value}%</data>
     </div>
 
     <div className="skill-progress-bg">
-      <div className="skill-progress-fill" style={{width: "80%"}}></div>
+      <div className="skill-progress-fill" style={{width: `${props.skill.value}%`}}></div>
     </div>
 
   </li>

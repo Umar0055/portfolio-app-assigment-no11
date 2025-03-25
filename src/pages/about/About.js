@@ -2,7 +2,7 @@ import React from 'react'
 import ServiceCard from '../../components/cards/ServiceCard'
 import Logo from '../../components/logo/Logo'
 import TestimonialsCard from '../../components/cards/TestimonialsCard'
-import { services, clientLogos, testimonials, } from '../../constants/about.constant'
+import { services, clientLogos, testimonials } from '../../constants/about.constant'
 export default function About() {
  
   return (
